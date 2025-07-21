@@ -17,7 +17,7 @@
       left: 0;
       width: 20%;
       max-width: auto;
-      min-width: 370px;
+      min-width: 670px;
       height: 100vh;
       background-color: #111F41;
       color: white;
@@ -30,7 +30,7 @@
     }
 
     .right {
-      margin-left: 372px;
+      margin-left: 672px;
       padding: 40px;
       flex-grow: 1;
       background-color: #39486e;
@@ -43,40 +43,40 @@
     }
     
     .about ,.education,.projects{
-      font-size: 10px;
+      font-size: 18px;
     }
 
     .Name-style{
       display: inline;
-      font-size: 33px;
+      font-size: 53px;
       font-weight: bolder;
       color: #C4D0EC;
-      transition: all 0.1s  ease-in-out;
+      transition: all 0.2s  ease-in-out;
     }
      .Name-style:hover{
-      font-size: 33.5px;
+      font-size: 54.5px;
       filter: drop-shadow(0 0 8px #31c0e4);
       transform: scale(1.05);
     }
-   
+    
     .Role-style{
-      font-size: 12px;
+      font-size: 22px;
       color: #C4D0EC;
       transition: all 0.1s  ease-in-out;
     }
      .Role-style:hover{
-      font-size: 12.5px;
+      font-size: 23.5px;
       filter: drop-shadow(0 0 8px #31c0e4);
       transform: scale(1.05);
      }
     .Summary-style{
-      font-size: 11px;
+      font-size: 16px;
       color: #5A6C92;
-      max-width: 300px;
+      max-width: 400px;
       transition: all 0.1s  ease-in-out;
     }
     .Summary-style:hover{
-      font-size: 11.3px;
+      font-size: 16.3px;
        filter: drop-shadow(0 0 8px );
       transform: scale(1.05);
     }
@@ -87,6 +87,7 @@
       
     }
     .nav-button{
+      
       width:min-content;
       background-color: none;
       letter-spacing: 0;
@@ -101,11 +102,11 @@
 
     .link-img{
       z-index: 3;
-      width: 35px;
+      width: 55px;
       transition: all 0.1s  ease-in-out;
     }
     .link-img:hover{
-      width: 45px;
+      width: 65px;
       filter: drop-shadow(0 0 8px #31c0e4);
       transform: scale(1.05);
     } 
@@ -128,6 +129,7 @@
   -webkit-backdrop-filter: blur(6px); /* Safari support */
   background-color: rgba(255, 255, 255, 0.2); /* Slightly more visible */
 }
+
 
 
     @media (max-width: 510px) {

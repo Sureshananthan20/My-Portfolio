@@ -21,7 +21,7 @@ function HoverButton({ name, target_id }) {
         color: "#5A6C92",
         background: "none",
         padding: "8px 16px",
-        fontSize: "10px",
+        fontSize: "15px",
         cursor: "pointer",
       }}
     >

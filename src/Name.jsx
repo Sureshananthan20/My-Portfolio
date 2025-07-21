@@ -7,6 +7,7 @@ import Education from './Education.jsx';
 import Projects from './Projects.jsx';
 
 
+
 function Name(){
 
 return(
@@ -28,6 +29,16 @@ return(
       <a href='https://github.com/Sureshananthan20' target='_blank'><img className='link-img' src={GitHub}></img></a>
       <a href='https://www.instagram.com/suresh_51_' target='_blank'><img className='link-img' src={insta}></img></a>
       <a href='https://www.linkedin.com/in/sureshananthan' target='_blank'><img className='link-img' src={LinkedIn}></img></a>
+    </div>
+    <div className='contact'>
+        <h4>Contact :</h4>
+      <a href="mailto:sureshananthan20@gmail.com" style={{ color: '#f3f3f3ff;', textDecoration: 'none' }}>
+        sureshananthan20@gmail.com
+      </a>
+      <p>Ph.no : +91 6369459877</p>
+      <a href='Suresh_Ananthan_Resume.pdf' target="_blank" rel="noopener noreferrer">
+        View My Resume
+      </a>
     </div>
   </div>
 
